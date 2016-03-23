@@ -1,0 +1,41 @@
+name = Akono
+description = New theme for Academy.
+core = 7.x
+base theme = bartik
+version = VERSION
+
+stylesheets[all][] = assets/css/reset.css
+stylesheets[all][] = assets/css/style.css
+stylesheets[all][] = assets/css/functions.css
+stylesheets[all][] = assets/css/skin.css
+stylesheets-conditional[if lt IE 8][all][] = assets/css/ie8.css
+stylesheets-conditional[if lt IE 7][all][] = assets/css/ie7.css
+stylesheets-conditional[if lt IE 6][all][] = assets/css/ie6.css
+stylesheets-conditional[if lt IE 6][all][] = assets/css/ie6-hover-fix.htc
+
+scripts[] = assets/js/jquery.jcarousel.min.js
+scripts[] = assets/js/initSlider.js
+
+
+regions[header] = Header
+regions[indeximg] = indeximg
+regions[slayderindex] = slayderindex
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+regions[content_sidebar] = Content where sidebar
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer] = Footer
+
+
